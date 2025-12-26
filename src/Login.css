@@ -1,0 +1,99 @@
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+  /* font-family: "Aguafina Script", cursive;
+  font-weight: 400;
+  font-style: normal; */
+
+
+#root {
+  background-image: linear-gradient(#4D0059, #ED75FF);
+  height: 100vh;
+  color: white;
+  font-size: 1.5em;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 10px 40px;
+  font-size: 1em;
+  margin: 20px;
+  color: black;
+  background-color: #F6B9FF;
+  border-radius: 25px;
+  border: none;
+}
+
+button:hover {
+  background-color: #4D0059;
+  color: white;
+  cursor: pointer;
+  animation: pulse 1s infinite;
+}
+
+
+/* Pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Original size */
+  }
+  50% {
+    transform: scale(1.1); /* Slightly larger */
+  }
+  100% {
+    transform: scale(1); /* Back to original size */
+  }
+}
+
+#popupShadow {
+  z-index: 3;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(177, 177, 177, 0.5);
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPopup {
+  width: 500px;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  padding: 20px;
+}
+
+.closeLoginPopup {
+  padding: 0;
+}
+
+.closeLoginPopup:hover {
+  background-color: #4D0059;
+  color: white;
+  cursor: pointer;
+  animation: none;
+}
