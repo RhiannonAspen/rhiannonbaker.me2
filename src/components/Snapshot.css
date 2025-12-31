@@ -1,0 +1,81 @@
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.snapshot {
+  margin-top: 5vw;
+  width: 100vw;
+  background-image: url('../assets/snapshot-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.snapshot > h1 {
+  font-family: "Aguafina Script", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3em;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+.info-card-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card {
+  padding: 20px;
+  height: 300px;
+  width: 200px;
+  margin: 30px 30px;
+  background-color: #F6B9FF;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card:hover{
+  background-color: #a03baf;
+  color: white;
+  animation: enlarge 1s 1;
+  transform: scale(1.2);
+}
+
+@keyframes enlarge {
+  0% {
+    transform: scale(1); 
+  }
+  100% {
+    transform: scale(1.2); 
+  }
+}
+
+.info-card > h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.info-card > p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
