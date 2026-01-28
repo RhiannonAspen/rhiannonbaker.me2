@@ -13,8 +13,9 @@
   width: 100vw;
   background-image: url('../assets/snapshot-bg.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 900px;
+  background-position: center;
+  background-size: contain;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,10 +40,10 @@
 }
 
 .info-card {
-  padding: 20px;
-  height: 300px;
+  padding: 10px;
+  height: 250px;
   width: 200px;
-  margin: 30px 30px;
+  margin: 20px 20px;
   background-color: #F6B9FF;
   border-radius: 50px;
   display: flex;

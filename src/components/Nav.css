@@ -12,25 +12,25 @@
   font-weight: 400;
   font-style: normal; */
 
-nav {
-  background-image: url('../assets/Navigation.svg');
-  background-repeat: no-repeat;
+#portfolio-nav {
+  background-image: url('../assets/Nav.png');
+  background-repeat:no-repeat;
+  background-size:cover;
   background-position: center;
-  background-size: cover;
-  min-height: 300px;
-  height: auto;
+  height: 30vh;
   width: 100vw;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding-top: 2rem;
+  padding-top: 5vh;
+  margin-bottom: 15vh;
 }
 
 .left
 {
   width: 33vw;
-  margin-left: 3rem;
+  margin-left: 2em;
   color: white;
   font-size: 2em;
 }
@@ -42,9 +42,16 @@ nav {
 
 #to_projects {
   float: right;
-  padding: 10px;
-  max-height: 75px;
-  height: 2em;
-  font-size: 1.5em;  
+  padding: 15px 30px;
+  font-size: 1.75em;  
 }
+
+#to_projects:hover {
+  background-color: #dd32f7;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  animation: pulse 1s infinite;
+}
+
 

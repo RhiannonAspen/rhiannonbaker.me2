@@ -8,30 +8,33 @@
   font-style: normal;
 }
 
-.about-section {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
-  width: 100vw;
-
+footer {
+  border-radius: 25px;
+  width: 98vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
 }
 
-.about-content {
-  width: 30vw;
-  margin: 30px;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.about-content > h2 {
+footer > button {
   font-size: 2em;
   font-weight: 500;
   font-family: "Aguafina Script", cursive;
   font-style: normal;
   letter-spacing: 0.05em;
+  background-color: #4D0059;
+  color: white;
+  width: 30vw;
 }
+
+footer > button:hover {
+  background-color: #dd32f7;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+
 

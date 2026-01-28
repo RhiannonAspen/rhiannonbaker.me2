@@ -7,9 +7,16 @@ function updateTime() {
     hours = hours % 12;
     hours = hours ? hours : 12; 
   
+    console.log(hours);
+    console.log(minutes);
     const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')} ${am_pm}`;
-    document.getElementById('time').textContent = formattedTime;
+    console.log(formattedTime);
+    const timer = document.getElementById('time');
+    console.log(timer);
+    timer.innerText = formattedTime;
   }
-  
-  setInterval(updateTime, 3000);
-  updateTime();
+
+  window.addEventListener('DOMContentLoaded', () => {
+    updateTime();
+    setInterval(updateTime, 1000);
+  });

@@ -117,3 +117,83 @@ button {
   border-radius: 25px;
   border: none;
 }
+
+.projects-hero-navigation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30vw;
+  margin-top: 10vh;
+}
+
+.projects-hero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.projects-hero > img {
+  width: 25vw;
+}
+
+.projects-hero-navigation > h1 {
+  font-size: 2.5em;
+}
+
+.projects-hero-navigation > button {
+  font-size: 1.75em;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.projects-hero-navigation > button:hover {
+  background-color: #4D0059;
+  color: white;
+  cursor: pointer;
+  animation: pulse 1s infinite;
+}
+
+.featured {
+  width: 100vw;
+  height: 90vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../assets/featured-projects.png");
+  transform: translateY(-10vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4em;
+}
+
+.certifications {
+
+}
+
+.certifications > img {
+  width: 150px;
+  margin: 10px;
+}
+
+.certifications > img:hover {
+  background-color: white;
+}
+
+#display-data
+{
+  font-size: 2em;
+  background-color: #4D0059;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

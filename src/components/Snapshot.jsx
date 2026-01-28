@@ -15,11 +15,11 @@ function Snapshot() {
             <p>Work experience in Operations Center & Technical Environments</p>
           </div>
           <div className="info-card">
-            <h2>6 Verified Credentials</h2>
+            <h2>7+ Verified Credentials</h2>
             <p>A.S. in Data Science, Diploma in Programming & Repair, and 4 other Technical Certificates</p>
           </div>
           <div className="info-card">
-            <h2>10 Completed Projects</h2>
+            <h2>10+ Completed Projects</h2>
             <p>Showcasing proof of skill, style, and problem-solving ability.</p>
           </div>
         </div>

@@ -38,7 +38,7 @@ function Login() {
     <>
     <div className="root">
       <div className="main">
-        <img src={titleLogo} alt="Rhiannon Baker - Technology Specialist"/>
+        <img id="home-hero-img" className='pulse-hero' src={titleLogo} alt="Rhiannon Baker - Technology Specialist"/>
         <p className='subtitle'>Access my web based portfolio and explore the skills I bring to your team.</p> 
         <button className="loginBTN" onClick={clickLogin}>Sign In</button>  
         <p>OR</p>
@@ -63,7 +63,6 @@ function Login() {
 
 
     </>
-    
   )
 }
 

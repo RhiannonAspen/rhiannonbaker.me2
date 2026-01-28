@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Snapshot from '../components/Snapshot';
 import About from '../components/Aboutme';
 import CTA from '../components/CTA';
+import Footer from '../components/Footer';
 
 function Home() {
 
@@ -15,6 +16,7 @@ function Home() {
       <Snapshot />
       <About />
       <CTA />
+      <Footer />
     </>
     
   )

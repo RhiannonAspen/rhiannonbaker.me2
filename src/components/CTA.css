@@ -11,12 +11,11 @@
 .cta-section {
   justify-self: center;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   background-image: linear-gradient(#4D0059, #9e36ae);
   border-radius: 25px;
-  width: 70vw;
+  width: 80vw;
   color: white;
-  margin-bottom: 10vh;
 }
 
 .cta-section > h2 {
