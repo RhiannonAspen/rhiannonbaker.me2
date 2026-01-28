@@ -1,11 +1,15 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 import titleLogo from '../assets/title-logo.png'
 
 import './global.css'
 
-function Login() {
+function Login({title}) {
+
+  useEffect(() => {
+    document.title = title;
+  }, [title]);
 
   const navigate = useNavigate()
 

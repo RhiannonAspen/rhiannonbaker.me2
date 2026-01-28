@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from 'react'
 
 import Navigation from '../components/Nav'; 
 import Hero from '../components/Hero';
@@ -7,7 +8,11 @@ import About from '../components/Aboutme';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
 
-function Home() {
+function Home({title}) {
+
+  useEffect(() => {
+      document.title = title;
+  }, [title]);
 
   return (
     <>

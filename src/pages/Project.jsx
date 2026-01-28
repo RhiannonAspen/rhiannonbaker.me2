@@ -1,6 +1,8 @@
 import Navigation from '../components/Nav'; 
 import Footer from '../components/Footer';
 
+import { useState, useEffect } from 'react'
+
 import './global.css'
 
 import heroIMG from "../assets/projects-hero.png"
@@ -13,7 +15,11 @@ import avaya from "../assets/certificates/avaya.png"
 import toscaas1 from "../assets/certificates/toscaas1.png"
 
 
-function Login() {
+function Login({title}) {
+
+  useEffect(() => {
+    document.title = title;
+  }, [title]);
 
   const clickClose = () => {
     const dataDisplay = document.getElementById("display-data");
