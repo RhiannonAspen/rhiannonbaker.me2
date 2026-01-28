@@ -201,3 +201,7 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+#data-text {
+  width: 80vw;
+}
